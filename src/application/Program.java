@@ -10,6 +10,10 @@ public class Program {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		/*
+		 * Instancia da classe set
+		 * uma classe de inteiros, pois vamos tratar do codigo de estudantes.
+		*/
 		Set<Integer> a = new HashSet<>();
 		Set<Integer> b = new HashSet<>();
 		Set<Integer> c = new HashSet<>();
@@ -40,6 +44,10 @@ public class Program {
 		total.addAll(b);
 		total.addAll(c);
 		
+		/*imprimi os total,
+		 * a senteça total.size vai mostra o total de codigos de alunos
+		 * somente total vai mostras o conjunto de alunos
+		*/
 		System.out.println("Total students: "+total.size());
 		
 		
